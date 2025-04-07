@@ -18,20 +18,19 @@ React Native + TypeScript 기반의 **비콘 주문 웹사이트 (사용자용)*
 
 ## 📁 주요 폴더 구조
 
-/Screens
-├── CreatePost.tsx
-├── Home.tsx
-├── LoadingScreen.tsx
-└── MyInfo.tsx
-/Stacks
-├── MainStack.tsx
-└── MyTaps.tsx
-/styles
-└── style.tsx
+/app
+  ├── page.tsx                // 홈화면
+  ├── create-post/page.tsx    // 글 작성
+  ├── my-info/page.tsx        // 내 정보
+  └── loading/page.tsx        // 로딩화면
+
 /components
-├── Button.tsx
-├── MyInput.tsx
-└── Table.tsx
+  ├── Button.tsx
+  ├── MyInput.tsx
+  └── Table.tsx
+
+/styles
+  └── style.ts
 
 ## 🚀 실행 방법
 
