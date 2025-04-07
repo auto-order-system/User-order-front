@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📱 Beacon Order Web (User - React Native Web)
 
-## Getting Started
+React Native + TypeScript 기반의 **비콘 주문 웹사이트 (사용자용)** 초기 버전입니다.  
+현재는 전체 구조와 페이지 틀만 구현된 상태이며, 주요 기능 및 UI는 추후 개발 예정입니다.
 
-First, run the development server:
+## 📌 목적
+
+- 비콘 기반의 스마트 주문 시스템 사용자 인터페이스 개발
+- 웹에서도 작동 가능한 React Native Web 기반 구조 실험
+- 사용자용 페이지 구조 설계 및 화면 구성
+
+## 🔧 기술 스택
+
+- React Native Web
+- TypeScript (.tsx)
+- React Navigation
+- 기본 컴포넌트 구성
+
+## 📁 주요 폴더 구조
+
+/Screens
+├── CreatePost.tsx
+├── Home.tsx
+├── LoadingScreen.tsx
+└── MyInfo.tsx
+/Stacks
+├── MainStack.tsx
+└── MyTaps.tsx
+/styles
+└── style.tsx
+/components
+├── Button.tsx
+├── MyInput.tsx
+└── Table.tsx
+
+## 🚀 실행 방법
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+npm install
+npm run web
