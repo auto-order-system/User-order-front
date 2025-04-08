@@ -1,4 +1,4 @@
-# 📱 Beacon Order Web (User - React Native Web)
+# 📱 Beacon Order Web (User - React TypeScript Web)
 
 React Native + TypeScript 기반의 **비콘 주문 웹사이트 (사용자용)** 초기 버전입니다.  
 현재는 전체 구조와 페이지 틀만 구현된 상태이며, 주요 기능 및 UI는 추후 개발 예정입니다.
