@@ -11,7 +11,7 @@ React Native + TypeScript 기반의 **비콘 주문 웹사이트 (사용자용)*
 
 ## 🔧 기술 스택
 
-- React Native Web
+- React TypeScript Web
 - TypeScript (.tsx)
 - React Navigation
 - 기본 컴포넌트 구성
